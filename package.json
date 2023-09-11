@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/apollo": "next",
     "@pinia/nuxt": "^0.4.11",
     "nuxt": "^3.7.1"
   },
