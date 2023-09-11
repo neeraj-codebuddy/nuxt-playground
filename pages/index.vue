@@ -4,8 +4,6 @@ const route = useRoute()
 
 <template>
   <div>
-    <h1>Nuxt Routing set up successfully!</h1>
-    <p>Current route: {{ route.path }}</p>
     <PageOne />
   </div>
 </template>
