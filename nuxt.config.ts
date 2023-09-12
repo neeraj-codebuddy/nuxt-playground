@@ -20,4 +20,7 @@ export default defineNuxtConfig({
       },
     },
   },
+  build: {
+    transpile: ["tslib"], // https://github.com/nuxt/nuxt/issues/19265#issuecomment-1702014262
+  },
 });
