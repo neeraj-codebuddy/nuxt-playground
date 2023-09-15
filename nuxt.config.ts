@@ -4,7 +4,16 @@ export default defineNuxtConfig({
   typescript: {
     shim: false,
   },
-  modules: ["@pinia/nuxt", "@nuxtjs/apollo"],
+  modules: [
+    "@pinia/nuxt",
+    "@nuxtjs/apollo",
+    [
+      "@vee-validate/nuxt",
+      {
+        autoImports: true,
+      },
+    ],
+  ],
   pinia: {
     autoImports: ["defineStore"],
   },

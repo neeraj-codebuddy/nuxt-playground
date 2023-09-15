@@ -12,9 +12,12 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/apollo": "next",
     "@pinia/nuxt": "^0.4.11",
-    "nuxt": "^3.7.1"
+    "nuxt": "latest"
   },
   "dependencies": {
-    "pinia": "^2.1.6"
+    "@vee-validate/nuxt": "^4.11.6",
+    "@vee-validate/zod": "^4.11.6",
+    "pinia": "^2.1.6",
+    "vee-validate": "^4.11.6"
   }
 }
